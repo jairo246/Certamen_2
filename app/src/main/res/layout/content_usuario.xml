@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.multimedio.jairo.certamen2.UsuarioActivity"
+    tools:showIn="@layout/activity_usuario">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_inicio"
+        android:id="@+id/contenido" />
+
+    <TextView
+        android:id="@+id/usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usuario"
+        android:layout_marginTop="15dp"
+         />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/contenido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp">
+
+
+        <TextView
+            android:text="@string/titulo_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Titulo" />
+
+        <TextView
+            android:text="@string/descripcion_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descripcion" />
+
+        <TextView
+            android:text="@string/update_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/update" />
+    </LinearLayout>
+
+</RelativeLayout>

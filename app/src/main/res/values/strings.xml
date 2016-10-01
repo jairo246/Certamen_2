@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Certamen2</string>
+    <string name="Titulo_string">Git Finder</string>
+    <string name="nombre_string">Usuario</string>
+    <string name="Inicio_string">Buscar</string>
+    <string name="usuario_inicio">Lista de repositorio del usuario </string>
+    <string name="title_activity_usuario">UsuarioActivity</string>
+
+    <string name="titulo_usuario">da el titulo de una pagina html</string>
+    <string name="descripcion_usuario">deberia dar la pagina de la html</string>
+    <string name="update_ad">da la actuacion de la html</string>
+
+</resources>
